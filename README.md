@@ -2,9 +2,8 @@
 
 ## Purpose
 
-This project extends the previous supervised wafer defect classification study
+This project extends the previous [**supervised wafer defect classification study**](https://github.com/Seotay/WBM_Classification)
 to a **Semi-Supervised Learning setting** using both labeled and unlabeled WM-811K data.
-
 The goal is to explore whether large-scale unlabeled wafer maps can be effectively utilized
 for 9-class wafer defect classification.
 
