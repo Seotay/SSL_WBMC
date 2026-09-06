@@ -1,0 +1,372 @@
+## backbone unfreeze
+## fc.classifier unfreeze
+
+05/02/2026 21:56:48 - INFO - root -   train_labeled_dataset: 129708
+05/02/2026 21:56:48 - INFO - root -   val_dataset: 25938
+05/02/2026 21:56:48 - INFO - root -   test_dataset: 17304
+05/02/2026 21:56:48 - INFO - root -   train_unlabeled_dataset: 638507
+[Epoch 1] Train Loss: 0.1450, Loss_s: 0.1377, Loss_u: 0.0285, Loss_sk: 0.0083, Mask: 0.8815, Acc: 0.9583, Prec: 0.7734, Rec: 0.7085, F1: 0.7366                                                              
+[Epoch 1] Val Loss: 0.1046, Acc: 0.9687, Prec: 0.8891, Rec: 0.7754, F1: 0.8218
+        Validation F1 improved → Saving model: ./checkpoints/best_model.pt
+[Epoch 2] Train Loss: 0.0956, Loss_s: 0.0893, Loss_u: 0.0239, Loss_sk: 0.0077, Mask: 0.9062, Acc: 0.9695, Prec: 0.8559, Rec: 0.8087, F1: 0.8307                                                              
+[Epoch 2] Val Loss: 0.1306, Acc: 0.9643, Prec: 0.8955, Rec: 0.7628, F1: 0.8047
+        EarlyStopping counter: 1 / 30
+[Epoch 3] Train Loss: 0.0895, Loss_s: 0.0831, Loss_u: 0.0241, Loss_sk: 0.0077, Mask: 0.9092, Acc: 0.9715, Prec: 0.8632, Rec: 0.8328, F1: 0.8468                                                              
+[Epoch 3] Val Loss: 0.0794, Acc: 0.9713, Prec: 0.8144, Rec: 0.8734, F1: 0.8335
+        Validation F1 improved → Saving model: ./checkpoints/best_model.pt
+[Epoch 4] Train Loss: 0.0868, Loss_s: 0.0805, Loss_u: 0.0239, Loss_sk: 0.0078, Mask: 0.9121, Acc: 0.9720, Prec: 0.8709, Rec: 0.8339, F1: 0.8512                                                              
+[Epoch 4] Val Loss: 0.1060, Acc: 0.9697, Prec: 0.9136, Rec: 0.7770, F1: 0.8362
+        Validation F1 improved → Saving model: ./checkpoints/best_model.pt
+[Epoch 5] Train Loss: 0.0835, Loss_s: 0.0769, Loss_u: 0.0248, Loss_sk: 0.0081, Mask: 0.9164, Acc: 0.9733, Prec: 0.8774, Rec: 0.8402, F1: 0.8577                                                              
+[Epoch 5] Val Loss: 0.0716, Acc: 0.9747, Prec: 0.8811, Rec: 0.8699, F1: 0.8671
+        Validation F1 improved → Saving model: ./checkpoints/best_model.pt
+[Epoch 6] Train Loss: 0.0808, Loss_s: 0.0746, Loss_u: 0.0233, Loss_sk: 0.0077, Mask: 0.9191, Acc: 0.9738, Prec: 0.8799, Rec: 0.8410, F1: 0.8595                                                              
+[Epoch 6] Val Loss: 0.0765, Acc: 0.9761, Prec: 0.9005, Rec: 0.8628, F1: 0.8779
+        Validation F1 improved → Saving model: ./checkpoints/best_model.pt
+[Epoch 7] Train Loss: 0.0798, Loss_s: 0.0732, Loss_u: 0.0247, Loss_sk: 0.0081, Mask: 0.9201, Acc: 0.9741, Prec: 0.8800, Rec: 0.8434, F1: 0.8607                                                              
+[Epoch 7] Val Loss: 0.0780, Acc: 0.9744, Prec: 0.9092, Rec: 0.8366, F1: 0.8632
+        EarlyStopping counter: 1 / 30
+[Epoch 8] Train Loss: 0.0788, Loss_s: 0.0726, Loss_u: 0.0232, Loss_sk: 0.0076, Mask: 0.9218, Acc: 0.9748, Prec: 0.8867, Rec: 0.8493, F1: 0.8668                                                              
+[Epoch 8] Val Loss: 0.0966, Acc: 0.9719, Prec: 0.9047, Rec: 0.8203, F1: 0.8542
+        EarlyStopping counter: 2 / 30
+[Epoch 9] Train Loss: 0.0774, Loss_s: 0.0713, Loss_u: 0.0231, Loss_sk: 0.0076, Mask: 0.9209, Acc: 0.9745, Prec: 0.8839, Rec: 0.8484, F1: 0.8652                                                              
+[Epoch 9] Val Loss: 0.0671, Acc: 0.9781, Prec: 0.9015, Rec: 0.8648, F1: 0.8761
+        EarlyStopping counter: 3 / 30
+[Epoch 10] Train Loss: 0.0768, Loss_s: 0.0706, Loss_u: 0.0235, Loss_sk: 0.0077, Mask: 0.9218, Acc: 0.9750, Prec: 0.8864, Rec: 0.8519, F1: 0.8683                                                             
+[Epoch 10] Val Loss: 0.0781, Acc: 0.9744, Prec: 0.8944, Rec: 0.8332, F1: 0.8580
+        EarlyStopping counter: 4 / 30
+[Epoch 11] Train Loss: 0.0746, Loss_s: 0.0685, Loss_u: 0.0231, Loss_sk: 0.0076, Mask: 0.9243, Acc: 0.9758, Prec: 0.8908, Rec: 0.8564, F1: 0.8727                                                             
+[Epoch 11] Val Loss: 0.0734, Acc: 0.9752, Prec: 0.8972, Rec: 0.8446, F1: 0.8664
+        EarlyStopping counter: 5 / 30
+[Epoch 12] Train Loss: 0.0741, Loss_s: 0.0680, Loss_u: 0.0229, Loss_sk: 0.0074, Mask: 0.9255, Acc: 0.9757, Prec: 0.8935, Rec: 0.8602, F1: 0.8761                                                             
+[Epoch 12] Val Loss: 0.0690, Acc: 0.9773, Prec: 0.8858, Rec: 0.8717, F1: 0.8747
+        EarlyStopping counter: 6 / 30
+[Epoch 13] Train Loss: 0.0732, Loss_s: 0.0672, Loss_u: 0.0226, Loss_sk: 0.0073, Mask: 0.9247, Acc: 0.9759, Prec: 0.8917, Rec: 0.8604, F1: 0.8752                                                             
+[Epoch 13] Val Loss: 0.1068, Acc: 0.9703, Prec: 0.8999, Rec: 0.8182, F1: 0.8497
+        EarlyStopping counter: 7 / 30
+[Epoch 14] Train Loss: 0.0721, Loss_s: 0.0662, Loss_u: 0.0221, Loss_sk: 0.0072, Mask: 0.9252, Acc: 0.9762, Prec: 0.8996, Rec: 0.8643, F1: 0.8811                                                             
+[Epoch 14] Val Loss: 0.0809, Acc: 0.9749, Prec: 0.9139, Rec: 0.8526, F1: 0.8769
+        EarlyStopping counter: 8 / 30
+[Epoch 15] Train Loss: 0.0713, Loss_s: 0.0653, Loss_u: 0.0229, Loss_sk: 0.0075, Mask: 0.9267, Acc: 0.9767, Prec: 0.8960, Rec: 0.8607, F1: 0.8775                                                             
+[Epoch 15] Val Loss: 0.0693, Acc: 0.9766, Prec: 0.9043, Rec: 0.8608, F1: 0.8763
+        EarlyStopping counter: 9 / 30
+[Epoch 16] Train Loss: 0.0701, Loss_s: 0.0642, Loss_u: 0.0223, Loss_sk: 0.0073, Mask: 0.9295, Acc: 0.9773, Prec: 0.8993, Rec: 0.8691, F1: 0.8834                                                             
+[Epoch 16] Val Loss: 0.0818, Acc: 0.9750, Prec: 0.9070, Rec: 0.8416, F1: 0.8673
+        EarlyStopping counter: 10 / 30
+[Epoch 17] Train Loss: 0.0693, Loss_s: 0.0636, Loss_u: 0.0216, Loss_sk: 0.0070, Mask: 0.9281, Acc: 0.9768, Prec: 0.8943, Rec: 0.8652, F1: 0.8790                                                             
+[Epoch 17] Val Loss: 0.0788, Acc: 0.9760, Prec: 0.9164, Rec: 0.8444, F1: 0.8754
+        EarlyStopping counter: 11 / 30
+[Epoch 18] Train Loss: 0.0694, Loss_s: 0.0635, Loss_u: 0.0223, Loss_sk: 0.0074, Mask: 0.9279, Acc: 0.9775, Prec: 0.9010, Rec: 0.8767, F1: 0.8881                                                             
+[Epoch 18] Val Loss: 0.0796, Acc: 0.9750, Prec: 0.9043, Rec: 0.8627, F1: 0.8785
+        Validation F1 improved → Saving model: ./checkpoints/best_model.pt
+[Epoch 19] Train Loss: 0.0684, Loss_s: 0.0627, Loss_u: 0.0212, Loss_sk: 0.0071, Mask: 0.9305, Acc: 0.9777, Prec: 0.8992, Rec: 0.8702, F1: 0.8840                                                             
+[Epoch 19] Val Loss: 0.0868, Acc: 0.9744, Prec: 0.8946, Rec: 0.8578, F1: 0.8720
+        EarlyStopping counter: 1 / 30
+[Epoch 20] Train Loss: 0.0679, Loss_s: 0.0622, Loss_u: 0.0216, Loss_sk: 0.0071, Mask: 0.9303, Acc: 0.9776, Prec: 0.9026, Rec: 0.8695, F1: 0.8853                                                             
+[Epoch 20] Val Loss: 0.0602, Acc: 0.9797, Prec: 0.8992, Rec: 0.8785, F1: 0.8834
+        Validation F1 improved → Saving model: ./checkpoints/best_model.pt
+[Epoch 21] Train Loss: 0.0667, Loss_s: 0.0611, Loss_u: 0.0212, Loss_sk: 0.0070, Mask: 0.9321, Acc: 0.9781, Prec: 0.9064, Rec: 0.8749, F1: 0.8900                                                             
+[Epoch 21] Val Loss: 0.0636, Acc: 0.9784, Prec: 0.9218, Rec: 0.8679, F1: 0.8896
+        Validation F1 improved → Saving model: ./checkpoints/best_model.pt
+[Epoch 22] Train Loss: 0.0656, Loss_s: 0.0601, Loss_u: 0.0206, Loss_sk: 0.0068, Mask: 0.9326, Acc: 0.9781, Prec: 0.9052, Rec: 0.8759, F1: 0.8899                                                             
+[Epoch 22] Val Loss: 0.0600, Acc: 0.9788, Prec: 0.8853, Rec: 0.8863, F1: 0.8828
+        EarlyStopping counter: 1 / 30
+[Epoch 23] Train Loss: 0.0663, Loss_s: 0.0606, Loss_u: 0.0214, Loss_sk: 0.0070, Mask: 0.9270, Acc: 0.9780, Prec: 0.8993, Rec: 0.8739, F1: 0.8860                                                             
+[Epoch 23] Val Loss: 0.0653, Acc: 0.9778, Prec: 0.9135, Rec: 0.8562, F1: 0.8810
+        EarlyStopping counter: 2 / 30
+[Epoch 24] Train Loss: 0.0643, Loss_s: 0.0585, Loss_u: 0.0219, Loss_sk: 0.0072, Mask: 0.9281, Acc: 0.9787, Prec: 0.9101, Rec: 0.8833, F1: 0.8961                                                             
+[Epoch 24] Val Loss: 0.0715, Acc: 0.9771, Prec: 0.9080, Rec: 0.8600, F1: 0.8776
+        EarlyStopping counter: 3 / 30
+[Epoch 25] Train Loss: 0.0643, Loss_s: 0.0585, Loss_u: 0.0221, Loss_sk: 0.0072, Mask: 0.9324, Acc: 0.9785, Prec: 0.9073, Rec: 0.8796, F1: 0.8928                                                             
+[Epoch 25] Val Loss: 0.0832, Acc: 0.9750, Prec: 0.9286, Rec: 0.8392, F1: 0.8770
+        EarlyStopping counter: 4 / 30
+[Epoch 26] Train Loss: 0.0633, Loss_s: 0.0572, Loss_u: 0.0229, Loss_sk: 0.0076, Mask: 0.9313, Acc: 0.9787, Prec: 0.9098, Rec: 0.8819, F1: 0.8952                                                             
+[Epoch 26] Val Loss: 0.0791, Acc: 0.9765, Prec: 0.9143, Rec: 0.8465, F1: 0.8759
+        EarlyStopping counter: 5 / 30
+[Epoch 27] Train Loss: 0.0633, Loss_s: 0.0576, Loss_u: 0.0217, Loss_sk: 0.0073, Mask: 0.9325, Acc: 0.9791, Prec: 0.9065, Rec: 0.8818, F1: 0.8935                                                             
+[Epoch 27] Val Loss: 0.0725, Acc: 0.9775, Prec: 0.9200, Rec: 0.8378, F1: 0.8740
+        EarlyStopping counter: 6 / 30
+[Epoch 28] Train Loss: 0.0630, Loss_s: 0.0572, Loss_u: 0.0218, Loss_sk: 0.0072, Mask: 0.9333, Acc: 0.9789, Prec: 0.9072, Rec: 0.8817, F1: 0.8939                                                             
+[Epoch 28] Val Loss: 0.0821, Acc: 0.9746, Prec: 0.9052, Rec: 0.8399, F1: 0.8671
+        EarlyStopping counter: 7 / 30
+[Epoch 29] Train Loss: 0.0629, Loss_s: 0.0574, Loss_u: 0.0205, Loss_sk: 0.0068, Mask: 0.9329, Acc: 0.9792, Prec: 0.9090, Rec: 0.8841, F1: 0.8960                                                             
+[Epoch 29] Val Loss: 0.0663, Acc: 0.9789, Prec: 0.9233, Rec: 0.8740, F1: 0.8952
+        Validation F1 improved → Saving model: ./checkpoints/best_model.pt
+[Epoch 30] Train Loss: 0.0631, Loss_s: 0.0572, Loss_u: 0.0219, Loss_sk: 0.0073, Mask: 0.9256, Acc: 0.9793, Prec: 0.9129, Rec: 0.8816, F1: 0.8965                                                             
+[Epoch 30] Val Loss: 0.0894, Acc: 0.9751, Prec: 0.9128, Rec: 0.8606, F1: 0.8794
+        EarlyStopping counter: 1 / 30
+[Epoch 31] Train Loss: 0.0613, Loss_s: 0.0557, Loss_u: 0.0210, Loss_sk: 0.0070, Mask: 0.9315, Acc: 0.9799, Prec: 0.9153, Rec: 0.8897, F1: 0.9018                                                             
+[Epoch 31] Val Loss: 0.0623, Acc: 0.9788, Prec: 0.8757, Rec: 0.8890, F1: 0.8767
+        EarlyStopping counter: 2 / 30
+[Epoch 32] Train Loss: 0.0606, Loss_s: 0.0548, Loss_u: 0.0217, Loss_sk: 0.0072, Mask: 0.9302, Acc: 0.9800, Prec: 0.9126, Rec: 0.8863, F1: 0.8990                                                             
+[Epoch 32] Val Loss: 0.0716, Acc: 0.9768, Prec: 0.9163, Rec: 0.8539, F1: 0.8795
+        EarlyStopping counter: 3 / 30
+[Epoch 33] Train Loss: 0.0611, Loss_s: 0.0552, Loss_u: 0.0222, Loss_sk: 0.0073, Mask: 0.9306, Acc: 0.9800, Prec: 0.9147, Rec: 0.8921, F1: 0.9029                                                             
+[Epoch 33] Val Loss: 0.0735, Acc: 0.9776, Prec: 0.9061, Rec: 0.8687, F1: 0.8813
+        EarlyStopping counter: 4 / 30
+[Epoch 34] Train Loss: 0.0607, Loss_s: 0.0547, Loss_u: 0.0226, Loss_sk: 0.0075, Mask: 0.9316, Acc: 0.9796, Prec: 0.9105, Rec: 0.8859, F1: 0.8977                                                             
+[Epoch 34] Val Loss: 0.0756, Acc: 0.9768, Prec: 0.8876, Rec: 0.8743, F1: 0.8747
+        EarlyStopping counter: 5 / 30
+[Epoch 35] Train Loss: 0.0601, Loss_s: 0.0539, Loss_u: 0.0234, Loss_sk: 0.0077, Mask: 0.9297, Acc: 0.9803, Prec: 0.9166, Rec: 0.8897, F1: 0.9026                                                             
+[Epoch 35] Val Loss: 0.0719, Acc: 0.9778, Prec: 0.9064, Rec: 0.8773, F1: 0.8883
+        EarlyStopping counter: 6 / 30
+[Epoch 36] Train Loss: 0.0608, Loss_s: 0.0548, Loss_u: 0.0225, Loss_sk: 0.0074, Mask: 0.9312, Acc: 0.9801, Prec: 0.9175, Rec: 0.8949, F1: 0.9057                                                             
+[Epoch 36] Val Loss: 0.0686, Acc: 0.9777, Prec: 0.8952, Rec: 0.8872, F1: 0.8871
+        EarlyStopping counter: 7 / 30
+[Epoch 37] Train Loss: 0.0601, Loss_s: 0.0543, Loss_u: 0.0217, Loss_sk: 0.0072, Mask: 0.9331, Acc: 0.9799, Prec: 0.9177, Rec: 0.8894, F1: 0.9030                                                             
+[Epoch 37] Val Loss: 0.0775, Acc: 0.9757, Prec: 0.9095, Rec: 0.8594, F1: 0.8787
+        EarlyStopping counter: 8 / 30
+[Epoch 38] Train Loss: 0.0599, Loss_s: 0.0538, Loss_u: 0.0228, Loss_sk: 0.0076, Mask: 0.9326, Acc: 0.9807, Prec: 0.9161, Rec: 0.8929, F1: 0.9039                                                             
+[Epoch 38] Val Loss: 0.0735, Acc: 0.9771, Prec: 0.9223, Rec: 0.8432, F1: 0.8747
+        EarlyStopping counter: 9 / 30
+[Epoch 39] Train Loss: 0.0587, Loss_s: 0.0532, Loss_u: 0.0206, Loss_sk: 0.0068, Mask: 0.9352, Acc: 0.9809, Prec: 0.9153, Rec: 0.8912, F1: 0.9028                                                             
+[Epoch 39] Val Loss: 0.0654, Acc: 0.9790, Prec: 0.9091, Rec: 0.8778, F1: 0.8886
+        EarlyStopping counter: 10 / 30
+[Epoch 40] Train Loss: 0.0592, Loss_s: 0.0534, Loss_u: 0.0215, Loss_sk: 0.0071, Mask: 0.9314, Acc: 0.9804, Prec: 0.9119, Rec: 0.8890, F1: 0.9000                                                             
+[Epoch 40] Val Loss: 0.0663, Acc: 0.9779, Prec: 0.9068, Rec: 0.8711, F1: 0.8854
+        EarlyStopping counter: 11 / 30
+[Epoch 41] Train Loss: 0.0591, Loss_s: 0.0534, Loss_u: 0.0213, Loss_sk: 0.0072, Mask: 0.9355, Acc: 0.9800, Prec: 0.9179, Rec: 0.8929, F1: 0.9049                                                             
+[Epoch 41] Val Loss: 0.0807, Acc: 0.9766, Prec: 0.8963, Rec: 0.8574, F1: 0.8672
+        EarlyStopping counter: 12 / 30
+[Epoch 42] Train Loss: 0.0583, Loss_s: 0.0523, Loss_u: 0.0225, Loss_sk: 0.0074, Mask: 0.9347, Acc: 0.9813, Prec: 0.9270, Rec: 0.9000, F1: 0.9130                                                             
+[Epoch 42] Val Loss: 0.0617, Acc: 0.9797, Prec: 0.9067, Rec: 0.8867, F1: 0.8932
+        EarlyStopping counter: 13 / 30
+[Epoch 43] Train Loss: 0.0581, Loss_s: 0.0519, Loss_u: 0.0230, Loss_sk: 0.0077, Mask: 0.9323, Acc: 0.9809, Prec: 0.9178, Rec: 0.8961, F1: 0.9065                                                             
+[Epoch 43] Val Loss: 0.0577, Acc: 0.9805, Prec: 0.9201, Rec: 0.8788, F1: 0.8980
+        Validation F1 improved → Saving model: ./checkpoints/best_model.pt
+[Epoch 44] Train Loss: 0.0586, Loss_s: 0.0523, Loss_u: 0.0238, Loss_sk: 0.0080, Mask: 0.9303, Acc: 0.9806, Prec: 0.9193, Rec: 0.8944, F1: 0.9064                                                             
+[Epoch 44] Val Loss: 0.0653, Acc: 0.9791, Prec: 0.9141, Rec: 0.8722, F1: 0.8891
+        EarlyStopping counter: 1 / 30
+[Epoch 45] Train Loss: 0.0572, Loss_s: 0.0514, Loss_u: 0.0220, Loss_sk: 0.0073, Mask: 0.9328, Acc: 0.9810, Prec: 0.9240, Rec: 0.9009, F1: 0.9120                                                             
+[Epoch 45] Val Loss: 0.0710, Acc: 0.9779, Prec: 0.9158, Rec: 0.8638, F1: 0.8843
+        EarlyStopping counter: 2 / 30
+[Epoch 46] Train Loss: 0.0573, Loss_s: 0.0513, Loss_u: 0.0222, Loss_sk: 0.0074, Mask: 0.9340, Acc: 0.9810, Prec: 0.9196, Rec: 0.8951, F1: 0.9069                                                             
+[Epoch 46] Val Loss: 0.0679, Acc: 0.9783, Prec: 0.9260, Rec: 0.8714, F1: 0.8936
+        EarlyStopping counter: 3 / 30
+[Epoch 47] Train Loss: 0.0577, Loss_s: 0.0514, Loss_u: 0.0236, Loss_sk: 0.0079, Mask: 0.9322, Acc: 0.9810, Prec: 0.9185, Rec: 0.8970, F1: 0.9074                                                             
+[Epoch 47] Val Loss: 0.0593, Acc: 0.9800, Prec: 0.8982, Rec: 0.8817, F1: 0.8850
+        EarlyStopping counter: 4 / 30
+[Epoch 48] Train Loss: 0.0565, Loss_s: 0.0506, Loss_u: 0.0221, Loss_sk: 0.0073, Mask: 0.9338, Acc: 0.9814, Prec: 0.9226, Rec: 0.9011, F1: 0.9115                                                             
+[Epoch 48] Val Loss: 0.0613, Acc: 0.9803, Prec: 0.9278, Rec: 0.8821, F1: 0.9032
+        Validation F1 improved → Saving model: ./checkpoints/best_model.pt
+[Epoch 49] Train Loss: 0.0561, Loss_s: 0.0500, Loss_u: 0.0228, Loss_sk: 0.0075, Mask: 0.9354, Acc: 0.9817, Prec: 0.9246, Rec: 0.9019, F1: 0.9128                                                             
+[Epoch 49] Val Loss: 0.0649, Acc: 0.9785, Prec: 0.9107, Rec: 0.8837, F1: 0.8946
+        EarlyStopping counter: 1 / 30
+[Epoch 50] Train Loss: 0.0565, Loss_s: 0.0505, Loss_u: 0.0224, Loss_sk: 0.0075, Mask: 0.9319, Acc: 0.9811, Prec: 0.9196, Rec: 0.8974, F1: 0.9081                                                             
+[Epoch 50] Val Loss: 0.0705, Acc: 0.9778, Prec: 0.9077, Rec: 0.8567, F1: 0.8761
+        EarlyStopping counter: 2 / 30
+[Epoch 51] Train Loss: 0.0557, Loss_s: 0.0495, Loss_u: 0.0232, Loss_sk: 0.0078, Mask: 0.9324, Acc: 0.9819, Prec: 0.9215, Rec: 0.8999, F1: 0.9103                                                             
+[Epoch 51] Val Loss: 0.0696, Acc: 0.9778, Prec: 0.9227, Rec: 0.8600, F1: 0.8878
+        EarlyStopping counter: 3 / 30
+[Epoch 52] Train Loss: 0.0559, Loss_s: 0.0495, Loss_u: 0.0240, Loss_sk: 0.0080, Mask: 0.9335, Acc: 0.9814, Prec: 0.9233, Rec: 0.9013, F1: 0.9118                                                             
+[Epoch 52] Val Loss: 0.0730, Acc: 0.9773, Prec: 0.9151, Rec: 0.8664, F1: 0.8859
+        EarlyStopping counter: 4 / 30
+[Epoch 53] Train Loss: 0.0552, Loss_s: 0.0491, Loss_u: 0.0228, Loss_sk: 0.0076, Mask: 0.9337, Acc: 0.9815, Prec: 0.9200, Rec: 0.9024, F1: 0.9109                                                             
+[Epoch 53] Val Loss: 0.0722, Acc: 0.9784, Prec: 0.9218, Rec: 0.8689, F1: 0.8913
+        EarlyStopping counter: 5 / 30
+[Epoch 54] Train Loss: 0.0563, Loss_s: 0.0501, Loss_u: 0.0232, Loss_sk: 0.0077, Mask: 0.9331, Acc: 0.9814, Prec: 0.9265, Rec: 0.9027, F1: 0.9142                                                             
+[Epoch 54] Val Loss: 0.0691, Acc: 0.9795, Prec: 0.9264, Rec: 0.8676, F1: 0.8942
+        EarlyStopping counter: 6 / 30
+[Epoch 55] Train Loss: 0.0549, Loss_s: 0.0488, Loss_u: 0.0229, Loss_sk: 0.0076, Mask: 0.9358, Acc: 0.9821, Prec: 0.9242, Rec: 0.9011, F1: 0.9123                                                             
+[Epoch 55] Val Loss: 0.0643, Acc: 0.9801, Prec: 0.9036, Rec: 0.9064, F1: 0.9018
+        EarlyStopping counter: 7 / 30
+[Epoch 56] Train Loss: 0.0547, Loss_s: 0.0485, Loss_u: 0.0230, Loss_sk: 0.0077, Mask: 0.9352, Acc: 0.9818, Prec: 0.9213, Rec: 0.9026, F1: 0.9115                                                             
+[Epoch 56] Val Loss: 0.0659, Acc: 0.9795, Prec: 0.9151, Rec: 0.8830, F1: 0.8961
+        EarlyStopping counter: 8 / 30
+[Epoch 57] Train Loss: 0.0541, Loss_s: 0.0482, Loss_u: 0.0220, Loss_sk: 0.0073, Mask: 0.9364, Acc: 0.9816, Prec: 0.9213, Rec: 0.9010, F1: 0.9108                                                             
+[Epoch 57] Val Loss: 0.0702, Acc: 0.9776, Prec: 0.9241, Rec: 0.8639, F1: 0.8896
+        EarlyStopping counter: 9 / 30
+[Epoch 58] Train Loss: 0.0544, Loss_s: 0.0480, Loss_u: 0.0243, Loss_sk: 0.0080, Mask: 0.9328, Acc: 0.9819, Prec: 0.9238, Rec: 0.9024, F1: 0.9127                                                             
+[Epoch 58] Val Loss: 0.0758, Acc: 0.9779, Prec: 0.9152, Rec: 0.8790, F1: 0.8934
+        EarlyStopping counter: 10 / 30
+[Epoch 59] Train Loss: 0.0534, Loss_s: 0.0476, Loss_u: 0.0219, Loss_sk: 0.0072, Mask: 0.9386, Acc: 0.9821, Prec: 0.9264, Rec: 0.9084, F1: 0.9170                                                             
+[Epoch 59] Val Loss: 0.0780, Acc: 0.9779, Prec: 0.9214, Rec: 0.8687, F1: 0.8904
+        EarlyStopping counter: 11 / 30
+[Epoch 60] Train Loss: 0.0523, Loss_s: 0.0467, Loss_u: 0.0210, Loss_sk: 0.0069, Mask: 0.9402, Acc: 0.9826, Prec: 0.9298, Rec: 0.9094, F1: 0.9193                                                             
+[Epoch 60] Val Loss: 0.0771, Acc: 0.9765, Prec: 0.9194, Rec: 0.8605, F1: 0.8851
+        EarlyStopping counter: 12 / 30
+[Epoch 61] Train Loss: 0.0525, Loss_s: 0.0469, Loss_u: 0.0209, Loss_sk: 0.0070, Mask: 0.9398, Acc: 0.9822, Prec: 0.9301, Rec: 0.9080, F1: 0.9187                                                             
+[Epoch 61] Val Loss: 0.0660, Acc: 0.9801, Prec: 0.8886, Rec: 0.8880, F1: 0.8829
+        EarlyStopping counter: 13 / 30
+[Epoch 62] Train Loss: 0.0527, Loss_s: 0.0471, Loss_u: 0.0210, Loss_sk: 0.0070, Mask: 0.9390, Acc: 0.9824, Prec: 0.9275, Rec: 0.9032, F1: 0.9150                                                             
+[Epoch 62] Val Loss: 0.0615, Acc: 0.9805, Prec: 0.9146, Rec: 0.8957, F1: 0.9034
+        Validation F1 improved → Saving model: ./checkpoints/best_model.pt
+[Epoch 63] Train Loss: 0.0525, Loss_s: 0.0464, Loss_u: 0.0229, Loss_sk: 0.0076, Mask: 0.9348, Acc: 0.9826, Prec: 0.9269, Rec: 0.9095, F1: 0.9178                                                             
+[Epoch 63] Val Loss: 0.0713, Acc: 0.9791, Prec: 0.9203, Rec: 0.8886, F1: 0.9009
+        EarlyStopping counter: 1 / 30
+[Epoch 64] Train Loss: 0.0523, Loss_s: 0.0465, Loss_u: 0.0217, Loss_sk: 0.0073, Mask: 0.9376, Acc: 0.9826, Prec: 0.9308, Rec: 0.9124, F1: 0.9212                                                             
+[Epoch 64] Val Loss: 0.0631, Acc: 0.9796, Prec: 0.9088, Rec: 0.8871, F1: 0.8940
+        EarlyStopping counter: 2 / 30
+[Epoch 65] Train Loss: 0.0516, Loss_s: 0.0459, Loss_u: 0.0215, Loss_sk: 0.0072, Mask: 0.9373, Acc: 0.9829, Prec: 0.9320, Rec: 0.9121, F1: 0.9217                                                             
+[Epoch 65] Val Loss: 0.0736, Acc: 0.9781, Prec: 0.9121, Rec: 0.8674, F1: 0.8851
+        EarlyStopping counter: 3 / 30
+[Epoch 66] Train Loss: 0.0523, Loss_s: 0.0466, Loss_u: 0.0215, Loss_sk: 0.0072, Mask: 0.9374, Acc: 0.9824, Prec: 0.9309, Rec: 0.9085, F1: 0.9193                                                             
+[Epoch 66] Val Loss: 0.0727, Acc: 0.9782, Prec: 0.9321, Rec: 0.8680, F1: 0.8959
+        EarlyStopping counter: 4 / 30
+[Epoch 67] Train Loss: 0.0515, Loss_s: 0.0459, Loss_u: 0.0211, Loss_sk: 0.0070, Mask: 0.9401, Acc: 0.9829, Prec: 0.9350, Rec: 0.9092, F1: 0.9217                                                             
+[Epoch 67] Val Loss: 0.0745, Acc: 0.9779, Prec: 0.8978, Rec: 0.8667, F1: 0.8727
+        EarlyStopping counter: 5 / 30
+[Epoch 68] Train Loss: 0.0508, Loss_s: 0.0454, Loss_u: 0.0202, Loss_sk: 0.0067, Mask: 0.9419, Acc: 0.9831, Prec: 0.9294, Rec: 0.9128, F1: 0.9208                                                             
+[Epoch 68] Val Loss: 0.0688, Acc: 0.9793, Prec: 0.9273, Rec: 0.8753, F1: 0.8986
+        EarlyStopping counter: 6 / 30
+[Epoch 69] Train Loss: 0.0504, Loss_s: 0.0447, Loss_u: 0.0216, Loss_sk: 0.0071, Mask: 0.9412, Acc: 0.9831, Prec: 0.9318, Rec: 0.9097, F1: 0.9205                                                             
+[Epoch 69] Val Loss: 0.0669, Acc: 0.9796, Prec: 0.9238, Rec: 0.8800, F1: 0.8986
+        EarlyStopping counter: 7 / 30
+[Epoch 70] Train Loss: 0.0508, Loss_s: 0.0450, Loss_u: 0.0220, Loss_sk: 0.0074, Mask: 0.9407, Acc: 0.9831, Prec: 0.9335, Rec: 0.9132, F1: 0.9230                                                             
+[Epoch 70] Val Loss: 0.0711, Acc: 0.9778, Prec: 0.9252, Rec: 0.8692, F1: 0.8932
+        EarlyStopping counter: 8 / 30
+[Epoch 71] Train Loss: 0.0507, Loss_s: 0.0451, Loss_u: 0.0210, Loss_sk: 0.0070, Mask: 0.9408, Acc: 0.9831, Prec: 0.9333, Rec: 0.9152, F1: 0.9239                                                             
+[Epoch 71] Val Loss: 0.0771, Acc: 0.9768, Prec: 0.9132, Rec: 0.8599, F1: 0.8798
+        EarlyStopping counter: 9 / 30
+[Epoch 72] Train Loss: 0.0495, Loss_s: 0.0436, Loss_u: 0.0219, Loss_sk: 0.0073, Mask: 0.9410, Acc: 0.9838, Prec: 0.9342, Rec: 0.9156, F1: 0.9246                                                             
+[Epoch 72] Val Loss: 0.0604, Acc: 0.9800, Prec: 0.9270, Rec: 0.8764, F1: 0.8993
+        EarlyStopping counter: 10 / 30
+[Epoch 73] Train Loss: 0.0499, Loss_s: 0.0441, Loss_u: 0.0215, Loss_sk: 0.0071, Mask: 0.9420, Acc: 0.9834, Prec: 0.9327, Rec: 0.9141, F1: 0.9231                                                             
+[Epoch 73] Val Loss: 0.0722, Acc: 0.9778, Prec: 0.9204, Rec: 0.8554, F1: 0.8831
+        EarlyStopping counter: 11 / 30
+[Epoch 74] Train Loss: 0.0491, Loss_s: 0.0433, Loss_u: 0.0217, Loss_sk: 0.0073, Mask: 0.9412, Acc: 0.9835, Prec: 0.9330, Rec: 0.9149, F1: 0.9236                                                             
+[Epoch 74] Val Loss: 0.0688, Acc: 0.9796, Prec: 0.9217, Rec: 0.8845, F1: 0.8992
+        EarlyStopping counter: 12 / 30
+[Epoch 75] Train Loss: 0.0490, Loss_s: 0.0431, Loss_u: 0.0218, Loss_sk: 0.0073, Mask: 0.9412, Acc: 0.9838, Prec: 0.9371, Rec: 0.9204, F1: 0.9284                                                             
+[Epoch 75] Val Loss: 0.0604, Acc: 0.9808, Prec: 0.9113, Rec: 0.8916, F1: 0.8983
+        EarlyStopping counter: 13 / 30
+[Epoch 76] Train Loss: 0.0493, Loss_s: 0.0436, Loss_u: 0.0213, Loss_sk: 0.0070, Mask: 0.9412, Acc: 0.9833, Prec: 0.9320, Rec: 0.9158, F1: 0.9236                                                             
+[Epoch 76] Val Loss: 0.0648, Acc: 0.9796, Prec: 0.9191, Rec: 0.8842, F1: 0.8984
+        EarlyStopping counter: 14 / 30
+[Epoch 77] Train Loss: 0.0489, Loss_s: 0.0429, Loss_u: 0.0224, Loss_sk: 0.0075, Mask: 0.9378, Acc: 0.9838, Prec: 0.9363, Rec: 0.9156, F1: 0.9257                                                             
+[Epoch 77] Val Loss: 0.0749, Acc: 0.9780, Prec: 0.9165, Rec: 0.8682, F1: 0.8869
+        EarlyStopping counter: 15 / 30
+[Epoch 78] Train Loss: 0.0481, Loss_s: 0.0426, Loss_u: 0.0209, Loss_sk: 0.0069, Mask: 0.9421, Acc: 0.9842, Prec: 0.9383, Rec: 0.9185, F1: 0.9280                                                             
+[Epoch 78] Val Loss: 0.0611, Acc: 0.9805, Prec: 0.9239, Rec: 0.8883, F1: 0.9031
+        EarlyStopping counter: 16 / 30
+[Epoch 79] Train Loss: 0.0473, Loss_s: 0.0416, Loss_u: 0.0213, Loss_sk: 0.0071, Mask: 0.9414, Acc: 0.9841, Prec: 0.9356, Rec: 0.9183, F1: 0.9267                                                             
+[Epoch 79] Val Loss: 0.0659, Acc: 0.9797, Prec: 0.9074, Rec: 0.8961, F1: 0.9001
+        EarlyStopping counter: 17 / 30
+[Epoch 80] Train Loss: 0.0478, Loss_s: 0.0419, Loss_u: 0.0222, Loss_sk: 0.0074, Mask: 0.9403, Acc: 0.9840, Prec: 0.9352, Rec: 0.9192, F1: 0.9269                                                             
+[Epoch 80] Val Loss: 0.0669, Acc: 0.9795, Prec: 0.9185, Rec: 0.8789, F1: 0.8964
+        EarlyStopping counter: 18 / 30
+[Epoch 81] Train Loss: 0.0478, Loss_s: 0.0414, Loss_u: 0.0241, Loss_sk: 0.0079, Mask: 0.9387, Acc: 0.9847, Prec: 0.9429, Rec: 0.9242, F1: 0.9333                                                             
+[Epoch 81] Val Loss: 0.0677, Acc: 0.9797, Prec: 0.9238, Rec: 0.8659, F1: 0.8908
+        EarlyStopping counter: 19 / 30
+[Epoch 82] Train Loss: 0.0470, Loss_s: 0.0413, Loss_u: 0.0213, Loss_sk: 0.0072, Mask: 0.9406, Acc: 0.9844, Prec: 0.9385, Rec: 0.9213, F1: 0.9296                                                             
+[Epoch 82] Val Loss: 0.0707, Acc: 0.9787, Prec: 0.9335, Rec: 0.8626, F1: 0.8942
+        EarlyStopping counter: 20 / 30
+[Epoch 83] Train Loss: 0.0469, Loss_s: 0.0410, Loss_u: 0.0223, Loss_sk: 0.0074, Mask: 0.9426, Acc: 0.9844, Prec: 0.9376, Rec: 0.9167, F1: 0.9269                                                             
+[Epoch 83] Val Loss: 0.0711, Acc: 0.9790, Prec: 0.9181, Rec: 0.8643, F1: 0.8873
+        EarlyStopping counter: 21 / 30
+[Epoch 84] Train Loss: 0.0473, Loss_s: 0.0414, Loss_u: 0.0223, Loss_sk: 0.0074, Mask: 0.9427, Acc: 0.9843, Prec: 0.9413, Rec: 0.9196, F1: 0.9302                                                             
+[Epoch 84] Val Loss: 0.0744, Acc: 0.9779, Prec: 0.9216, Rec: 0.8663, F1: 0.8881
+        EarlyStopping counter: 22 / 30
+[Epoch 85] Train Loss: 0.0462, Loss_s: 0.0404, Loss_u: 0.0215, Loss_sk: 0.0071, Mask: 0.9438, Acc: 0.9845, Prec: 0.9401, Rec: 0.9231, F1: 0.9314                                                             
+[Epoch 85] Val Loss: 0.0787, Acc: 0.9779, Prec: 0.9301, Rec: 0.8666, F1: 0.8942
+        EarlyStopping counter: 23 / 30
+[Epoch 86] Train Loss: 0.0455, Loss_s: 0.0398, Loss_u: 0.0213, Loss_sk: 0.0072, Mask: 0.9440, Acc: 0.9850, Prec: 0.9421, Rec: 0.9245, F1: 0.9331                                                             
+[Epoch 86] Val Loss: 0.0657, Acc: 0.9800, Prec: 0.9199, Rec: 0.8823, F1: 0.8979
+        EarlyStopping counter: 24 / 30
+[Epoch 87] Train Loss: 0.0456, Loss_s: 0.0400, Loss_u: 0.0210, Loss_sk: 0.0070, Mask: 0.9447, Acc: 0.9849, Prec: 0.9392, Rec: 0.9269, F1: 0.9329                                                             
+[Epoch 87] Val Loss: 0.0703, Acc: 0.9787, Prec: 0.9312, Rec: 0.8656, F1: 0.8951
+        EarlyStopping counter: 25 / 30
+[Epoch 88] Train Loss: 0.0450, Loss_s: 0.0393, Loss_u: 0.0215, Loss_sk: 0.0071, Mask: 0.9432, Acc: 0.9850, Prec: 0.9465, Rec: 0.9301, F1: 0.9380                                                             
+[Epoch 88] Val Loss: 0.0682, Acc: 0.9800, Prec: 0.9247, Rec: 0.8822, F1: 0.9010
+        EarlyStopping counter: 26 / 30
+[Epoch 89] Train Loss: 0.0453, Loss_s: 0.0395, Loss_u: 0.0216, Loss_sk: 0.0072, Mask: 0.9447, Acc: 0.9850, Prec: 0.9449, Rec: 0.9289, F1: 0.9367                                                             
+[Epoch 89] Val Loss: 0.0688, Acc: 0.9795, Prec: 0.9257, Rec: 0.8653, F1: 0.8910
+        EarlyStopping counter: 27 / 30
+[Epoch 90] Train Loss: 0.0452, Loss_s: 0.0395, Loss_u: 0.0213, Loss_sk: 0.0072, Mask: 0.9438, Acc: 0.9853, Prec: 0.9465, Rec: 0.9300, F1: 0.9381                                                             
+[Epoch 90] Val Loss: 0.0731, Acc: 0.9784, Prec: 0.9321, Rec: 0.8706, F1: 0.8965
+        EarlyStopping counter: 28 / 30
+[Epoch 91] Train Loss: 0.0449, Loss_s: 0.0390, Loss_u: 0.0219, Loss_sk: 0.0072, Mask: 0.9451, Acc: 0.9852, Prec: 0.9463, Rec: 0.9296, F1: 0.9377                                                             
+[Epoch 91] Val Loss: 0.0644, Acc: 0.9805, Prec: 0.9232, Rec: 0.8870, F1: 0.9027
+        EarlyStopping counter: 29 / 30
+[Epoch 92] Train Loss: 0.0440, Loss_s: 0.0384, Loss_u: 0.0209, Loss_sk: 0.0068, Mask: 0.9479, Acc: 0.9854, Prec: 0.9460, Rec: 0.9286, F1: 0.9371                                                             
+[Epoch 92] Val Loss: 0.0748, Acc: 0.9791, Prec: 0.9275, Rec: 0.8710, F1: 0.8951
+        EarlyStopping counter: 30 / 30
+Early stopping triggered...
+Total training time: 313 min 54.33 sec
+Loaded best model.
+[Best Model Train] Loss: 0.0583, Acc: 0.9801, Prec: 0.9255, Rec: 0.8916, F1: 0.9070                                                                                                                          
+[Best Model Train] Classification Report:
+              precision    recall  f1-score   support
+
+           0     0.9534    0.9211    0.9370      3220
+           1     0.9247    0.9447    0.9346       416
+           2     0.8925    0.8219    0.8558      3891
+           3     0.9689    0.9927    0.9807      7260
+           4     0.8487    0.7847    0.8154      2694
+           5     0.9733    0.8413    0.9025       649
+           6     0.8633    0.7416    0.7978       894
+           7     0.9160    0.9820    0.9478       111
+           8     0.9885    0.9942    0.9913    110573
+
+    accuracy                         0.9801    129708
+   macro avg     0.9255    0.8916    0.9070    129708
+weighted avg     0.9795    0.9801    0.9797    129708
+
+[Best Model Train] Confusion Matrix:
+[[  2966      2      5      0      7      1      0      0    239]
+ [     7    393      1      2     10      1      1      0      1]
+ [     9      2   3198     76    187      3      7      0    409]
+ [     0      0     35   7207      0      0      0      0     18]
+ [    67     22     30      1   2114      3     51      0    406]
+ [    10      4     28     21     17    546      0     10     13]
+ [     0      0      9      4     21      0    663      0    197]
+ [     0      0      2      0      0      0      0    109      0]
+ [    52      2    275    127    135      7     46      0 109929]]
+
+[Best Model Validation] Loss: 0.0615, Acc: 0.9805, Prec: 0.9146, Rec: 0.8957, F1: 0.9034                                                                                                                     
+[Best Model Validation] Classification Report:
+              precision    recall  f1-score   support
+
+           0     0.9560    0.9115    0.9332       644
+           1     0.8632    0.9880    0.9213        83
+           2     0.9130    0.8226    0.8654       778
+           3     0.9749    0.9917    0.9833      1452
+           4     0.8242    0.7844    0.8038       538
+           5     0.9626    0.7984    0.8729       129
+           6     0.7919    0.7697    0.7806       178
+           7     0.9565    1.0000    0.9778        22
+           8     0.9893    0.9948    0.9920     22114
+
+    accuracy                         0.9805     25938
+   macro avg     0.9146    0.8957    0.9034     25938
+weighted avg     0.9800    0.9805    0.9801     25938
+
+[Best Model Validation] Confusion Matrix:
+[[  587     4     0     0     1     0     0     0    52]
+ [    0    82     0     0     1     0     0     0     0]
+ [    1     0   640    15    47     1     1     0    73]
+ [    0     0     8  1440     0     0     0     0     4]
+ [   10     5     7     0   422     2    17     0    75]
+ [    3     4     7     2     6   103     0     1     3]
+ [    0     0     3     1     6     0   137     0    31]
+ [    0     0     0     0     0     0     0    22     0]
+ [   13     0    36    19    29     1    18     0 21998]]
+
+[Test] Loss: 0.0596, Acc: 0.9802, Prec: 0.9365, Rec: 0.8890, F1: 0.9108                                                                                                                                      
+[Test] Classification Report:
+              precision    recall  f1-score   support
+
+           0     0.9450    0.9186    0.9316       430
+           1     0.9444    0.9107    0.9273        56
+           2     0.9197    0.8154    0.8644       520
+           3     0.9776    0.9928    0.9851       968
+           4     0.8512    0.7922    0.8207       361
+           5     0.9647    0.9318    0.9480        88
+           6     0.8387    0.6446    0.7290       121
+           7     1.0000    1.0000    1.0000        16
+           8     0.9873    0.9949    0.9911     14744
+
+    accuracy                         0.9802     17304
+   macro avg     0.9365    0.8890    0.9108     17304
+weighted avg     0.9795    0.9802    0.9797     17304
+
+[Test] Confusion Matrix:
+[[  395     0     0     0     2     0     0     0    33]
+ [    1    51     1     0     2     0     0     0     1]
+ [    0     0   424     9    25     0     1     0    61]
+ [    0     0     3   961     0     0     0     0     4]
+ [    8     2     7     0   286     1     6     0    51]
+ [    1     1     0     1     2    82     0     0     1]
+ [    0     0     1     0     4     0    78     0    38]
+ [    0     0     0     0     0     0     0    16     0]
+ [   13     0    25    12    15     2     8     0 14669]]

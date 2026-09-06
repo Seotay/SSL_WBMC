@@ -1,0 +1,226 @@
+06/05/2026 16:51:47 - INFO - root - train_labeled_dataset: 129708
+06/05/2026 16:51:47 - INFO - root - val_dataset: 25938
+06/05/2026 16:51:47 - INFO - root - test_dataset: 17304
+06/05/2026 16:51:47 - INFO - root - train_unlabeled_dataset: 638507
+[PBT Initial] task 0: τ=0.850 | task 1: τ=0.900 | task 2: τ=0.950
+                                                                                                                                                                                                                            
+[PBT Round 1/30, epoch 5/150]
+        best(before)=2 | (τ=0.9500) | alpha=2.0500, beta=3.3811, accuracy=0.9740, precision=0.9207, recall=0.8122, f1-score=0.8528
+        worst(before)=1 | (τ=0.9000) | alpha=1.9884, beta=3.1918, accuracy=0.9649, precision=0.8476, recall=0.7924, f1-score=0.8034
+        update(after)=1 <- 2(τ=0.9350)
+                                                                                                                                                                                                                            
+[PBT Round 2/30, epoch 10/150]
+        best(before)=2 | (τ=0.9500) | alpha=1.8287, beta=3.4764, accuracy=0.9760, precision=0.9007, recall=0.8385, f1-score=0.8619
+        worst(before)=1 | (τ=0.9350) | alpha=1.9390, beta=3.1384, accuracy=0.9725, precision=0.9142, recall=0.8153, f1-score=0.8549
+        update(after)=1 <- 2(τ=0.9650)
+                                                                                                                                                                                                                            
+[PBT Round 3/30, epoch 15/150]
+        best(before)=0 | (τ=0.8500) | alpha=2.4457, beta=2.1333, accuracy=0.9759, precision=0.8900, recall=0.8727, f1-score=0.8775
+        worst(before)=1 | (τ=0.9650) | alpha=2.4734, beta=6.4935, accuracy=0.9760, precision=0.9032, recall=0.8527, f1-score=0.8712
+        update(after)=1 <- 0(τ=0.8350)
+                                                                                                                                                                                                                            
+[PBT Round 4/30, epoch 20/150]
+        best(before)=0 | (τ=0.8500) | alpha=2.6105, beta=2.6400, accuracy=0.9744, precision=0.9027, recall=0.8559, f1-score=0.8732
+        worst(before)=2 | (τ=0.9500) | alpha=2.0834, beta=3.1672, accuracy=0.9731, precision=0.8746, recall=0.8750, f1-score=0.8705
+        update(after)=2 <- 0(τ=0.8350)
+                                                                                                                                                                                                                            
+[PBT Round 5/30, epoch 25/150]
+        best(before)=1 | (τ=0.8350) | alpha=2.5494, beta=2.5301, accuracy=0.9803, precision=0.9083, recall=0.8922, f1-score=0.8982
+        worst(before)=0 | (τ=0.8500) | alpha=2.5561, beta=2.5035, accuracy=0.9773, precision=0.9050, recall=0.8780, f1-score=0.8855
+        update(after)=0 <- 1(τ=0.8300)
+                                                                                                                                                                                                                            
+[PBT Round 6/30, epoch 30/150]
+        best(before)=2 | (τ=0.8350) | alpha=2.7423, beta=2.7393, accuracy=0.9771, precision=0.9044, recall=0.8796, f1-score=0.8889
+        worst(before)=1 | (τ=0.8350) | alpha=2.7140, beta=2.7592, accuracy=0.9752, precision=0.9139, recall=0.8488, f1-score=0.8764
+        update(after)=1 <- 2(τ=0.8500)
+                                                                                                                                                                                                                            
+[PBT Round 7/30, epoch 35/150]
+        best(before)=2 | (τ=0.8350) | alpha=2.7534, beta=2.7977, accuracy=0.9790, precision=0.9166, recall=0.8785, f1-score=0.8945
+        worst(before)=0 | (τ=0.8300) | alpha=2.7220, beta=2.8137, accuracy=0.9783, precision=0.9125, recall=0.8759, f1-score=0.8904
+        update(after)=0 <- 2(τ=0.8300)
+                                                                                                                                                                                                                            
+[PBT Round 8/30, epoch 40/150]
+        best(before)=2 | (τ=0.8350) | alpha=2.7429, beta=2.6750, accuracy=0.9785, precision=0.9072, recall=0.8847, f1-score=0.8942
+        worst(before)=0 | (τ=0.8300) | alpha=2.7540, beta=2.9636, accuracy=0.9778, precision=0.9063, recall=0.8753, f1-score=0.8878
+        update(after)=0 <- 2(τ=0.8300)
+                                                                                                                                                                                                                            
+[PBT Round 9/30, epoch 45/150]
+        best(before)=1 | (τ=0.8500) | alpha=2.7893, beta=2.8234, accuracy=0.9788, precision=0.9152, recall=0.8883, f1-score=0.8984
+        worst(before)=0 | (τ=0.8300) | alpha=2.7846, beta=2.7405, accuracy=0.9787, precision=0.9073, recall=0.8873, f1-score=0.8919
+        update(after)=0 <- 1(τ=0.8350)
+                                                                                                                                                                                                                            
+[PBT Round 10/30, epoch 50/150]
+        best(before)=2 | (τ=0.8350) | alpha=2.8455, beta=2.8413, accuracy=0.9793, precision=0.9200, recall=0.8815, f1-score=0.8988
+        worst(before)=0 | (τ=0.8350) | alpha=2.8302, beta=2.8978, accuracy=0.9786, precision=0.9184, recall=0.8786, f1-score=0.8969
+        update(after)=0 <- 2(τ=0.8500)
+                                                                                                                                                                                                                            
+[PBT Round 11/30, epoch 55/150]
+        best(before)=2 | (τ=0.8350) | alpha=2.8640, beta=2.8409, accuracy=0.9798, precision=0.9085, recall=0.8922, f1-score=0.8959
+        worst(before)=0 | (τ=0.8500) | alpha=2.8812, beta=2.1178, accuracy=0.9786, precision=0.8978, recall=0.8881, f1-score=0.8885
+        update(after)=0 <- 2(τ=0.8300)
+                                                                                                                                                                                                                            
+[PBT Round 12/30, epoch 60/150]
+        best(before)=0 | (τ=0.8300) | alpha=2.9082, beta=2.8498, accuracy=0.9800, precision=0.9162, recall=0.8866, f1-score=0.8981
+        worst(before)=1 | (τ=0.8500) | alpha=2.9133, beta=2.9164, accuracy=0.9774, precision=0.8993, recall=0.8851, f1-score=0.8886
+        update(after)=1 <- 0(τ=0.8300)
+                                                                                                                                                                                                                            
+[PBT Round 13/30, epoch 65/150]
+        best(before)=0 | (τ=0.8300) | alpha=2.9398, beta=2.8178, accuracy=0.9795, precision=0.9242, recall=0.8816, f1-score=0.9006
+        worst(before)=2 | (τ=0.8350) | alpha=2.9109, beta=2.7312, accuracy=0.9792, precision=0.9195, recall=0.8807, f1-score=0.8967
+        update(after)=2 <- 0(τ=0.8300)
+                                                                                                                                                                                                                            
+[PBT Round 14/30, epoch 70/150]
+        best(before)=2 | (τ=0.8300) | alpha=2.9595, beta=2.9431, accuracy=0.9789, precision=0.9165, recall=0.8793, f1-score=0.8938
+        worst(before)=1 | (τ=0.8300) | alpha=2.9544, beta=2.9118, accuracy=0.9791, precision=0.9185, recall=0.8730, f1-score=0.8935
+        update(after)=1 <- 2(τ=0.8300)
+                                                                                                                                                                                                                            
+[PBT Round 15/30, epoch 75/150]
+        best(before)=2 | (τ=0.8300) | alpha=2.9683, beta=2.7674, accuracy=0.9793, precision=0.9194, recall=0.8872, f1-score=0.9007
+        worst(before)=0 | (τ=0.8300) | alpha=2.9302, beta=2.5649, accuracy=0.9784, precision=0.8911, recall=0.8989, f1-score=0.8927
+        update(after)=0 <- 2(τ=0.8450)
+                                                                                                                                                                                                                            
+[PBT Round 16/30, epoch 80/150]
+        best(before)=2 | (τ=0.8300) | alpha=3.0311, beta=2.9580, accuracy=0.9812, precision=0.9304, recall=0.8916, f1-score=0.9081
+        worst(before)=1 | (τ=0.8300) | alpha=3.0309, beta=2.8467, accuracy=0.9811, precision=0.9192, recall=0.8909, f1-score=0.9021
+        update(after)=1 <- 2(τ=0.8300)
+                                                                                                                                                                                                                            
+[PBT Round 17/30, epoch 85/150]
+        best(before)=0 | (τ=0.8450) | alpha=3.0625, beta=2.8925, accuracy=0.9790, precision=0.9269, recall=0.8755, f1-score=0.8982
+        worst(before)=1 | (τ=0.8300) | alpha=3.0671, beta=2.9020, accuracy=0.9778, precision=0.9278, recall=0.8664, f1-score=0.8935
+        update(after)=1 <- 0(τ=0.8600)
+                                                                                                                                                                                                                            
+[PBT Round 18/30, epoch 90/150]
+        best(before)=0 | (τ=0.8450) | alpha=3.1033, beta=2.8282, accuracy=0.9807, precision=0.9225, recall=0.8953, f1-score=0.9064
+        worst(before)=2 | (τ=0.8300) | alpha=3.0968, beta=2.8044, accuracy=0.9805, precision=0.9272, recall=0.8868, f1-score=0.9048
+        update(after)=2 <- 0(τ=0.8600)
+                                                                                                                                                                                                                            
+[PBT Round 19/30, epoch 95/150]
+        best(before)=2 | (τ=0.8600) | alpha=3.1199, beta=2.8694, accuracy=0.9794, precision=0.9344, recall=0.8742, f1-score=0.9003
+        worst(before)=0 | (τ=0.8450) | alpha=3.1224, beta=2.8607, accuracy=0.9798, precision=0.9226, recall=0.8805, f1-score=0.8970
+        update(after)=0 <- 2(τ=0.8750)
+                                                                                                                                                                                                                            
+[PBT Round 20/30, epoch 100/150]
+        best(before)=2 | (τ=0.8600) | alpha=3.1596, beta=3.0172, accuracy=0.9808, precision=0.9283, recall=0.8879, f1-score=0.9057
+        worst(before)=1 | (τ=0.8600) | alpha=3.1132, beta=2.7983, accuracy=0.9801, precision=0.9258, recall=0.8795, f1-score=0.9005
+        update(after)=1 <- 2(τ=0.8450)
+                                                                                                                                                                                                                            
+[PBT Round 21/30, epoch 105/150]
+        best(before)=2 | (τ=0.8600) | alpha=3.1810, beta=2.9625, accuracy=0.9810, precision=0.9177, recall=0.8971, f1-score=0.9051
+        worst(before)=0 | (τ=0.8750) | alpha=3.1859, beta=2.9672, accuracy=0.9800, precision=0.9098, recall=0.8925, f1-score=0.8978
+        update(after)=0 <- 2(τ=0.8750)
+                                                                                                                                                                                                                            
+[PBT Round 22/30, epoch 110/150]
+        best(before)=1 | (τ=0.8450) | alpha=3.2374, beta=2.9247, accuracy=0.9800, precision=0.9320, recall=0.8805, f1-score=0.9031
+        worst(before)=2 | (τ=0.8600) | alpha=3.2349, beta=2.9266, accuracy=0.9800, precision=0.9181, recall=0.8915, f1-score=0.9018
+        update(after)=2 <- 1(τ=0.8300)
+                                                                                                                                                                                                                            
+[PBT Round 23/30, epoch 115/150]
+        best(before)=1 | (τ=0.8450) | alpha=3.2697, beta=2.9072, accuracy=0.9793, precision=0.9269, recall=0.8859, f1-score=0.9023
+        worst(before)=0 | (τ=0.8750) | alpha=3.2740, beta=2.9169, accuracy=0.9793, precision=0.9278, recall=0.8828, f1-score=0.9019
+        update(after)=0 <- 1(τ=0.8600)
+                                                                                                                                                                                                                            
+[PBT Round 24/30, epoch 120/150]
+        best(before)=0 | (τ=0.8600) | alpha=3.3362, beta=2.9682, accuracy=0.9811, precision=0.9187, recall=0.8873, f1-score=0.8992
+        worst(before)=1 | (τ=0.8450) | alpha=3.3363, beta=3.0221, accuracy=0.9793, precision=0.9213, recall=0.8792, f1-score=0.8957
+        update(after)=1 <- 0(τ=0.8750)
+                                                                                                                                                                                                                            
+[PBT Round 25/30, epoch 125/150]
+        best(before)=2 | (τ=0.8300) | alpha=3.4080, beta=3.0330, accuracy=0.9801, precision=0.9341, recall=0.8835, f1-score=0.9055
+        worst(before)=1 | (τ=0.8750) | alpha=3.3853, beta=2.9682, accuracy=0.9793, precision=0.9319, recall=0.8822, f1-score=0.9038
+        update(after)=1 <- 2(τ=0.8450)
+                                                                                                                                                                                                                            
+[PBT Round 26/30, epoch 130/150]
+        best(before)=0 | (τ=0.8600) | alpha=3.4273, beta=3.0117, accuracy=0.9798, precision=0.9180, recall=0.8913, f1-score=0.9015
+        worst(before)=2 | (τ=0.8300) | alpha=3.4622, beta=2.9095, accuracy=0.9801, precision=0.9253, recall=0.8790, f1-score=0.8986
+        update(after)=2 <- 0(τ=0.8750)
+                                                                                                                                                                                                                            
+[PBT Round 27/30, epoch 135/150]
+        best(before)=0 | (τ=0.8600) | alpha=3.4319, beta=3.0541, accuracy=0.9802, precision=0.9303, recall=0.8799, f1-score=0.9025
+        worst(before)=2 | (τ=0.8750) | alpha=3.4364, beta=3.0285, accuracy=0.9793, precision=0.9289, recall=0.8793, f1-score=0.8998
+        update(after)=2 <- 0(τ=0.8750)
+                                                                                                                                                                                                                            
+[PBT Round 28/30, epoch 140/150]
+        best(before)=2 | (τ=0.8750) | alpha=3.4925, beta=3.0576, accuracy=0.9799, precision=0.9289, recall=0.8773, f1-score=0.8997
+        worst(before)=1 | (τ=0.8450) | alpha=3.5419, beta=3.0165, accuracy=0.9800, precision=0.9255, recall=0.8746, f1-score=0.8972
+        update(after)=1 <- 2(τ=0.8900)
+                                                                                                                                                                                                                            
+[PBT Round 29/30, epoch 145/150]
+        best(before)=0 | (τ=0.8600) | alpha=3.4870, beta=3.0527, accuracy=0.9805, precision=0.9263, recall=0.8895, f1-score=0.9048
+        worst(before)=1 | (τ=0.8900) | alpha=3.5324, beta=3.0919, accuracy=0.9801, precision=0.9311, recall=0.8806, f1-score=0.9027
+        update(after)=1 <- 0(τ=0.8750)
+                                                                                                                                                                                                                            
+[PBT Round 30/30, epoch 150/150]
+        best(before)=2 | (τ=0.8750) | alpha=3.5699, beta=3.0277, accuracy=0.9811, precision=0.9296, recall=0.8898, f1-score=0.9068
+        worst(before)=1 | (τ=0.8750) | alpha=3.5655, beta=3.0547, accuracy=0.9810, precision=0.9274, recall=0.8838, f1-score=0.9027
+        update(after)=1 <- 2(τ=0.8900)
+Worker-0 alive=False, exitcode=0
+Worker-1 alive=False, exitcode=0
+Worker-2 alive=False, exitcode=0
+Explorer-4 alive=False, exitcode=0
+
+[PBT Result]
+        Tuning time: 700 min 55.64 sec
+        Best task=2 | round=16 | epoch=78
+        metrics: accuracy=0.9812, precision=0.9304, recall=0.8916, f1-score=0.9081
+        hyperparams: τ=0.8300, alpha=3.0256, beta=2.9104
+        class thresholds: [0.505, 0.4436, 0.4747, 0.5023, 0.435, 0.4919, 0.4261, 0.6472, 0.83]
+        τ history: [0.95, 0.835, 0.83]
+        Epochs: 150 per task | 450 task-epochs
+
+[Best PBT Validation] Loss: 0.0623, Acc: 0.9812, Prec: 0.9304, Rec: 0.8916, F1: 0.9081                                                                                                                                      
+[Best PBT Validation] Classification Report:
+              precision    recall  f1-score   support
+
+           0     0.9703    0.9130    0.9408       644
+           1     0.8265    0.9759    0.8950        83
+           2     0.9467    0.7995    0.8669       778
+           3     0.9729    0.9904    0.9816      1452
+           4     0.9027    0.7416    0.8143       538
+           5     0.9431    0.8992    0.9206       129
+           6     0.8701    0.7528    0.8072       178
+           7     0.9545    0.9545    0.9545        22
+           8     0.9863    0.9972    0.9917     22114
+
+    accuracy                         0.9812     25938
+   macro avg     0.9304    0.8916    0.9081     25938
+weighted avg     0.9807    0.9812    0.9805     25938
+
+[Best PBT Validation] Confusion Matrix:
+[[  588     5     0     0     2     0     0     0    49]
+ [    0    81     0     0     1     1     0     0     0]
+ [    1     0   622    27    10     3     2     0   113]
+ [    0     0     4  1438     0     0     0     0    10]
+ [    6     8    13     0   399     2    12     0    98]
+ [    0     2     3     0     5   116     1     1     1]
+ [    0     0     2     1     6     0   134     0    35]
+ [    1     0     0     0     0     0     0    21     0]
+ [   10     2    13    12    19     1     5     0 22052]]
+
+[Best PBT Test] Loss: 0.0662, Acc: 0.9793, Prec: 0.9348, Rec: 0.8694, F1: 0.8980                                                                                                                                            
+[Best PBT Test] Classification Report:
+              precision    recall  f1-score   support
+
+           0     0.9509    0.9000    0.9247       430
+           1     0.8197    0.8929    0.8547        56
+           2     0.9312    0.7808    0.8494       520
+           3     0.9766    0.9928    0.9846       968
+           4     0.9220    0.7535    0.8293       361
+           5     0.9302    0.9091    0.9195        88
+           6     0.8989    0.6612    0.7619       121
+           7     1.0000    0.9375    0.9677        16
+           8     0.9841    0.9966    0.9903     14744
+
+    accuracy                         0.9793     17304
+   macro avg     0.9348    0.8694    0.8980     17304
+weighted avg     0.9786    0.9793    0.9784     17304
+
+[Best PBT Test] Confusion Matrix:
+[[  387     1     0     0     1     0     0     0    41]
+ [    1    50     0     0     3     0     1     0     1]
+ [    0     1   406    17     6     2     0     0    88]
+ [    0     0     1   961     0     0     0     0     6]
+ [    5     6    10     0   272     1     5     0    62]
+ [    1     1     1     0     2    80     0     0     3]
+ [    0     0     1     0     4     0    80     0    36]
+ [    0     0     0     0     0     1     0    15     0]
+ [   13     2    17     6     7     2     3     0 14694]]

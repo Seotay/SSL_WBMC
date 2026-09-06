@@ -1,0 +1,22 @@
+5/26/2026 22:34:26 - INFO - root - train_labeled_dataset: 129708
+05/26/2026 22:34:26 - INFO - root - val_dataset: 25938
+05/26/2026 22:34:26 - INFO - root - test_dataset: 17304
+05/26/2026 22:34:26 - INFO - root - train_unlabeled_dataset: 638507
+[PBT Initial] task 0: lambda=1.2487, threshold=0.9299 | task 1: lambda=2.8620, threshold=0.9078 | task 2: lambda=2.2496, threshold=0.9078
+[PBT Round 1/10, epoch 15/150] best=0 score=0.8687 (lambda=1.2487, threshold=0.9299) | worst=2 score=0.8146 | update=2<-0(lambda=1.4985, threshold=0.9149)                                                               
+[PBT Round 2/10, epoch 30/150] best=2 score=0.8823 (lambda=1.4985, threshold=0.9149) | worst=1 score=0.8491 | update=1<-2(lambda=1.7981, threshold=0.9299)                                                               
+[PBT Round 3/10, epoch 45/150] best=1 score=0.8847 (lambda=1.7981, threshold=0.9299) | worst=2 score=0.8493 | update=2<-1(lambda=1.4385, threshold=0.9449)                                                               
+[PBT Round 4/10, epoch 60/150] best=0 score=0.8845 (lambda=1.2487, threshold=0.9299) | worst=2 score=0.8833 | update=2<-0(lambda=1.4985, threshold=0.9149)                                                               
+[PBT Round 5/10, epoch 75/150] best=0 score=0.8962 (lambda=1.2487, threshold=0.9299) | worst=2 score=0.8812 | update=2<-0(lambda=1.4985, threshold=0.9449)                                                               
+[PBT Round 6/10, epoch 90/150] best=1 score=0.9009 (lambda=1.7981, threshold=0.9299) | worst=2 score=0.8890 | update=2<-1(lambda=2.1578, threshold=0.9149)                                                               
+[PBT Round 7/10, epoch 105/150] best=0 score=0.8962 (lambda=1.2487, threshold=0.9299) | worst=1 score=0.8921 | update=1<-0(lambda=1.4985, threshold=0.9449)                                                              
+[PBT Round 8/10, epoch 120/150] best=1 score=0.9001 (lambda=1.4985, threshold=0.9449) | worst=0 score=0.8925 | update=0<-1(lambda=1.1988, threshold=0.9599)                                                              
+[PBT Round 9/10, epoch 135/150] best=2 score=0.8975 (lambda=2.1578, threshold=0.9149) | worst=1 score=0.8934 | update=1<-2(lambda=1.7262, threshold=0.9299)                                                              
+[PBT Round 10/10, epoch 150/150] best=2 score=0.9009 (lambda=2.1578, threshold=0.9149) | worst=0 score=0.8943 | update=0<-2(lambda=2.5893, threshold=0.9299)                                                             
+
+[PBT Result]
+Best task=1 | round=7 | epoch=100 | score=0.9060 | lambda=1.7981 | threshold=0.9299
+Lambda history: [2.862, 1.7981]
+Threshold history: [0.9078, 0.9299]
+Epochs: 150 per task | 450 task-epochs
+Tuning time: 619 min 2.13 sec
