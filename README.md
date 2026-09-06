@@ -1,4 +1,4 @@
-# Semi-Supervised Wafer Defect Classification
+# Semi-Supervised Learning for WBM Classification (SSL-WBMC)
 
 ## Purpose
 
@@ -8,13 +8,11 @@ to a **Semi-Supervised Learning setting** using both labeled and unlabeled WM-81
 The goal is to explore whether large-scale unlabeled wafer maps can be effectively utilized
 for 9-class wafer defect classification.
 
-> This is a personal follow-up experiment and is not included in the IJPR manuscript.
-
 ---
 
 ## Workflow
 
-![workflow](figures/ssl_workflow.png)
+![workflow](figures/fixmatch.png)
 
 ---
 
@@ -38,7 +36,6 @@ for 9-class wafer defect classification.
 ---
 
 ## Key Results
-
 - **Validation Accuracy**: `0.9787`
 - **Validation Macro-F1**: `0.8974`
 - **Test Accuracy**: `0.9789`
@@ -53,19 +50,42 @@ indicating that the severe class imbalance in WM-811K also affects pseudo-label 
 
 Future work includes:
 
-- Applying **AdaSH-style Adaptive Thresholding** to reduce dominant-class pseudo-label bias.
+- Applying **AdaSH: Adaptive Thresholding** to reduce dominant-class pseudo-label bias.
 - Evaluating class-wise pseudo-label distributions and acceptance rates.
-- Comparing **Supervised-only vs. Semi-Supervised Learning** under multiple labeled-data ratios.
 - Quantitatively evaluating the actual contribution of unlabeled wafer maps.
 
-WBM_Classification/
-├── supervised/
-│   └── ...
-├── semi_supervised/
-│   ├── main.py
-│   ├── trainer.py
-│   └── ...
-├── figures/
-│   ├── workflow.png
-│   └── ssl_workflow.png
-└── README.md
+---
+
+## Directory Structure
+
+```text
+SSL_WBMC/
+      ├── data/
+      │
+      ├── dataset/
+      │   └── dataset.py                   # Dataset loading and augmentation logic
+      │
+      ├── model/
+      │   └── model.py                     # ResNet model
+      │
+      ├── utils/
+      │   ├── trainer_MTL.py               # FixMatch / multi-task learning trainer
+      │   ├── trainer_adsh.py              # AdaSH trainer
+      │   └── utils.py                     
+      │
+      ├── figures/
+      │   ├── fixmatch.png                 
+      │   ├── pseudo_label_distribution.png
+      │   └── Strong_Augmentation.png      
+      │
+      ├── checkpoints/                     
+      │
+      ├── log/                             
+      │   ├── adsh/
+      │   └── hyperparameter_tuning/Multi_task_learning
+      │
+      ├── main_MTL.py                      # Main FixMatch + MTL training script
+      ├── main_adsh.py                     # Main AdaSH training script
+      └── README.md
+```
+
