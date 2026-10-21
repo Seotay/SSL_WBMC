@@ -11,7 +11,7 @@ for 9-class wafer defect classification.
 
 ## Workflow
 
-![workflow](figures/image.png)
+![workflow](figures/fixmatch.png)
 
 ---
 
